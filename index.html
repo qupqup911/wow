@@ -1,33 +1,51 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>公佈欄加圖片廣播</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
+<html lang="zh-Hant">
 <body>
-<!-- partial:index.partial.html -->
-<body onLoad="show()">
-  <div id="ncyu">
-    <img id="ico">
-  </div>
-<h2>NCYU公佈欄</h2>
-<h3>標題</h3>
-<input type="text" id="title" size="50"></input>
-<h3>內容</h3>
-<textarea id="content" cols="50" rows="8"></textarea>
-<br>
-<button id="btn">送出</button>
-<div id="list">
-  <div id="list">
-    <h2>期末考重要訊息</h2>
-    <p>全校期末考全面All Pass!</p><hr>
-    </div>
-</div>
-</body>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳品瑄的個人網頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ <header>
+        <h1>陳品瑄的個人網頁</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#skills">興趣</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>關於我</h2>
+      <img src="my-photo.jpg" alt="陳品瑄的照片" class="profile-photo">
+        <p>你好！我是陳品瑄，目前就讀於國立嘉義大學數位學系設計與管理學系。我喜歡設計和程式開發，對輔諮和傳播也有興趣。</p>
+    </section>
+    <section id="skills">
+        <h2>興趣</h2>
+        <ul>
+            <li>聽音樂</li>
+            <li>看漫畫(Webtoon)</li>
+            <li>追劇</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <form id="contactForm">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">留言：</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">送出</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 陳品瑄. 保留所有權利。</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
