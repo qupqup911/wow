@@ -1,9 +1,94 @@
-#ncyu{
-  position: absolute;
-  border: solid 5px gold;
-  top:100px;
-  right:100px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
-#ico{
-  width:300px;
+
+header {
+    background: #6c63ff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.profile-photo {
+    
+    d
+display: block;
+    
+    max
+
+    
+
+ 
+max-width: 150px; /* 限制圖片寬度 */
+    
+    h
+height: auto; /* 保持比例 */
+    
+    
+
+ 
+border-radius: 50%; /* 圓形照片 */
+    
+    margi
+
+    ma
+
+   
+margin: 1rem auto; /* 垂直居中 */
+    
+    box-shad
+
+    bo
+
+   
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 加陰影 */
 }
